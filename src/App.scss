@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  background-color: #A7BEAE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  
+  #editor {
+    margin-top: 30px;
+    background-color: #E7E8D1;
+    height: 30vw;
+    width: 60vw;
+  }
+  
+  #preview {
+    position: center;
+    background-color: #B85042;
+    color: white;
+    min-height: 30vw;
+    width: 60vw;
+    text-align: left;
+    padding: 0 30px 30px 30px;
+    margin-bottom: 30px;
+    border: white;
+  }
+  
+  img[alt=markdownlogo] {
+    padding-top: 30px;
+    width: 200px;
+    color: white;
+    background-color: w;
+  }
+}
